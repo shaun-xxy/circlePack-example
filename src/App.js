@@ -15,7 +15,7 @@ function App() {
   }
 
 
-  const nodeScale = scaleSqrt().domain(extent(dataset.nodes, nodeSize)).range([3, 25]).nice().clamp(true);
+  const nodeScale = scaleSqrt().domain(extent(dataset.nodes, nodeSize)).range([3, 30]).nice().clamp(true);
   const edgeScale = scaleLinear().domain(extent(dataset.edges, edgeSize)).range([1, 20]).nice().clamp(true);
 
   const graphLayoutData = circlePackLayoutData(dataToSerialNodes(dataset, nodeScale, edgeScale),'cluster');
