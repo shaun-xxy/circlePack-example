@@ -16,10 +16,10 @@ You may also see any lint errors in the console.
 
 ## 项目结构
 
-public:存放样例数据\
+public:存放样例数据
 
 utils:存放数据获取以及数据转换的函数\
-  index.js 包含 circlepack layout 数据计算\
-  useData.js 获取数据\
+-index.js 包含 circlepack layout 数据计算\
+-useData.js 获取数据
   
-App.js 绘制网络图\
+App.js 绘制网络图
