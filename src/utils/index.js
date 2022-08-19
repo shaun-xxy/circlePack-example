@@ -12,8 +12,8 @@ export const dataToSerialNodes = (jsonData, nodeScale, edgeScale) => {
                 label: d.name,
                 id: d.id,
                 cluster: d.category,
-                x: d.x,
-                y: d.y,
+                // x: d.x,
+                // y: d.y,
                 size: nodeScale(d.symbolSize),
                 value: d.value
             }
